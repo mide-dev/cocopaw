@@ -26,9 +26,11 @@ const About = () => {
           </p>
         </div>
         <div
-          className="rounded-full w-16 h-16 bg-[var(--clr-secondary)] bg-[url('src/assets/about.png')] bg-cover bg-top border-[2px] 
-          border-[var(--clr-primary)] mt-4 ml-auto"
-        ></div>
+          className="rounded-full w-16 h-16 bg-[var(--clr-secondary)] bg-cover bg-top border-[2px] 
+          border-[var(--clr-primary)] mt-4 ml-auto overflow-hidden"
+        >
+          <img src={about} alt="" />
+        </div>
       </div>
       <div className="order-1 md:order-2 mb-20 text-center md:text-start mx-auto md:mx-0">
         <h2>SOLANA COOLEST CATS.</h2>
