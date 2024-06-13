@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --clr-offwhite: #f5f5f5;
+    --clr-primary: #ff1183;
+    --clr-secondary: #ffce70;
+
+    background-color: var(--clr-offwhite);
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Jost", sans-serif;
+  }
+
+  body {
+    @apply text-gray-900;
+  }
+
+  section {
+    @apply py-6 mx-auto;
+  }
+
+  section:where(.content) {
+    @apply max-w-[1100px] px-6;
+  }
+
+  @media (min-width: 768px) {
+    section:where(.large) {
+      @apply py-10;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    section:where(.large) {
+      @apply py-24;
+    }
+  }
+
+  h2 {
+    @apply pb-8 text-3xl;
+  }
+  h3 {
+    @apply pb-8 text-xl font-medium;
+  }
+
+  .container {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-inline: 1.5rem;
+  }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 1100px;
+      padding-inline: 2.5rem;
+    }
+  }
+
+  nav a,
+  button {
+    font-family: "Roboto Mono", monospace;
+    cursor: pointer;
+  }
+
+  nav a:hover {
+    color: var(--clr-primary);
+    cursor: pointer;
+  }
+
+  nav a:focus {
+    color: var(--clr-primary);
+    cursor: pointer;
+  }
+}
