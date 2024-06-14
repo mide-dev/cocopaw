@@ -18,7 +18,7 @@ const Tokenomics = () => {
           />
         </div>
       </div>
-      <div className="hidden lg:block relative w-[45%] ">
+      <div className="hidden lg:block relative w-[35%] ">
         <img
           src={tokenomics}
           alt=""
