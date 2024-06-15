@@ -74,4 +74,8 @@
     color: var(--clr-primary);
     cursor: pointer;
   }
+
+  .transition-opacity {
+    transition: opacity 0.8s ease-in-out;
+  }
 }

@@ -12,8 +12,11 @@ const Footer = () => {
         entertainment. By purchasing $CPAW, you acknowledge this disclaimer.
       </p>
       <div className="flex gap-x-6">
-        <IconFrame href="#" img={telegram} />
-        <IconFrame href="#" img={twitter} />
+        <IconFrame href="https://t.me/cocopawofficial" img={telegram} />
+        <IconFrame
+          href="https://x.com/cocopawsol?s=21&t=P50pIkW65Qob_E9TU-KPKg"
+          img={twitter}
+        />
       </div>
       <img
         src={countMoney}

@@ -11,6 +11,7 @@ const Tokenomics = () => {
           <span className="block py-1">AIRDROP - 10%</span>
           <span className="block py-1">LIQUIDITY POOL - 70%</span>
           <span className="block py-1">MARKETING - 10%</span>
+          <span className="block py-1">EXCHANGE LISTING - 10%</span>
           <span className="block py-1">TEAM - 5%</span>
           <Button
             buttonText="TRADE COCO"
