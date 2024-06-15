@@ -21,10 +21,9 @@ const Contract = () => {
       </CopyToClipboard>
       {copied && (
         <div
-          style={{ color: "green" }}
           className={`transition-opacity duration-500 ${
             copied ? "opacity-100" : "opacity-0"
-          } absolute left-0 right-0 bottom-10 inline-block`}
+          } absolute left-0 right-0 flex justify-center items-center pt-4 lg:pt-6 w-full`}
         >
           <button className="p-3 bg-[var(--clr-secondary)] text-white rounded-lg shadow-md">
             Contract copied to clipboard!
