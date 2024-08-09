@@ -8,7 +8,6 @@ const Tokenomics = () => {
         <h2>COCOPAW TOKENOMICS</h2>
         <div>
           <span className="block pb-1">Total supply of 1 Billion tokens</span>
-          <span className="block py-1">AIRDROP - 10%</span>
           <span className="block py-1">LIQUIDITY POOL - 70%</span>
           <span className="block py-1">MARKETING - 10%</span>
           <span className="block py-1">EXCHANGE LISTING - 5%</span>
