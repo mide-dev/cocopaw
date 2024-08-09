@@ -2,7 +2,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 import { useState, useEffect } from "react";
 
 const Contract = () => {
-  const [textToCopy] = useState("7kq3Rr1PyABRT4DWq2146eqrrS6Kd7Zopb1bAT7FmRhf");
+  const [textToCopy] = useState("BxV1xpNs7ssSaSgp6vUWXkJ6MZkYhGYVRtzdJWuDr49n");
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
